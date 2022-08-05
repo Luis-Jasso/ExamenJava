@@ -1,14 +1,16 @@
-package com.examen.figura.v1;
+package com.examen.figura.abstracta;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.swing.JOptionPane;
 
 public class Principal {
 
 	public static void main(String[] args) {
 
-		// int i = Random();
 
+		System.out.println("Ejemplo con abstracción");
 		System.out.println("Todos los valores estan expresados en cm");
 		System.out.println();
 
@@ -31,6 +33,7 @@ public class Principal {
 		figuras.add(cuadrado);
 		figuras.add(triangulo);
 		figuras.add(trapecio);
+		
 		
 		calcularAreaFigura(figuras);
 

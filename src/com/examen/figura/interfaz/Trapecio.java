@@ -1,4 +1,4 @@
-package com.examen.figura.v1;
+package com.examen.figura.interfaz;
 
 public class Trapecio implements Figura {
 

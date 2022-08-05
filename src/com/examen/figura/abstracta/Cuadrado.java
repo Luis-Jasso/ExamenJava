@@ -1,7 +1,6 @@
-package com.examen.figura.v0;
+package com.examen.figura.abstracta;
 
-
-public class Cuadrado implements Figura {
+public class Cuadrado extends Figura {
 
 	private float mLado;
 
@@ -11,7 +10,7 @@ public class Cuadrado implements Figura {
 
 	@Override
 	public float areaFigura() {
-		return (float) (Math.pow(mLado, 2));
+		return (float) (Math.pow(mLado, 2)); //L*L
 	}
 
 	@Override

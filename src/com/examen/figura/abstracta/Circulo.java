@@ -1,6 +1,6 @@
-package com.examen.figura.v1;
+package com.examen.figura.abstracta;
 
-public class Circulo implements Figura {
+public class Circulo extends Figura {
 
 	public float radio;
 

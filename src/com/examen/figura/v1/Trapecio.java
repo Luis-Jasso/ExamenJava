@@ -1,4 +1,4 @@
-
+package com.examen.figura.v1;
 
 public class Trapecio implements Figura {
 
@@ -16,7 +16,7 @@ public class Trapecio implements Figura {
 	@Override
 	public float areaFigura() {
 		// TODO Auto-generated method stub
-		return (float) (((baseMayor + baseMenor) * altura) / 2);
+		return (float) (((baseMayor + baseMenor) * altura) / 2);// ((B+b)*h)/2
 	}
 
 	@Override

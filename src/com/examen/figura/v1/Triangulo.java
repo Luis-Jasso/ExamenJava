@@ -1,4 +1,4 @@
-
+package com.examen.figura.v1;
 
 public class Triangulo implements Figura {
 
@@ -13,7 +13,6 @@ public class Triangulo implements Figura {
 
 	@Override
 	public float areaFigura() {
-		// TODO Auto-generated method stub
 		return (float) ((b * h) / 2);// (base * altura)/2
 	}
 

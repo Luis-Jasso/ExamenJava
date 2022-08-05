@@ -1,4 +1,4 @@
-
+package com.examen.figura.v1;
 
 public class Cuadrado implements Figura {
 
@@ -10,7 +10,7 @@ public class Cuadrado implements Figura {
 
 	@Override
 	public float areaFigura() {
-		return (float) (Math.pow(mLado, 2));
+		return (float) (Math.pow(mLado, 2)); //L*L
 	}
 
 	@Override

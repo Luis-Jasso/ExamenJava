@@ -1,4 +1,4 @@
-package com.examen.figura;
+package com.examen.figura.v1;
 
 public class Circulo implements Figura {
 

@@ -1,4 +1,4 @@
-
+package com.examen.figura.v1;
 
 public abstract interface Figura {
 
